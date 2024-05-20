@@ -2384,193 +2384,6 @@
 				)
 			)
 		)
-		(symbol "Library:S7133S"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "S713XS"
-				(at 5.334 13.462 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 30.48 15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 30.48 15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 30.48 15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 30.48 15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "S7133S_1_1"
-				(rectangle
-					(start -8.89 11.43)
-					(end 8.89 -11.43)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at 0 13.97 270)
-					(length 2.54)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 11.43 6.35 180)
-					(length 2.54)
-					(name "FB"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 11.43 0 180)
-					(length 2.54)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 11.43 -6.35 180)
-					(length 2.54)
-					(name "CS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -11.43 5.08 0)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -11.43 -3.81 0)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 0 -13.97 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Regulator_Linear:AMS1117-3.3"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2999,6 +2812,211 @@
 						)
 					)
 					(number "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "S7133S_1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "S713XS"
+				(at 5.334 13.462 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 30.48 15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 30.48 15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 30.48 15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 30.48 15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "S7133S_1_1_1"
+				(rectangle
+					(start -8.89 11.43)
+					(end 8.89 -11.43)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at 0 13.97 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 11.43 6.35 180)
+					(length 2.54)
+					(name "FB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 11.43 0 180)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 11.43 -6.35 180)
+					(length 2.54)
+					(name "CS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -11.43 5.08 0)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -11.43 -3.81 0)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 5.08 -13.97 90)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -3.81 -13.97 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4309,7 +4327,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 100.33) (xy 180.34 97.79)
+			(xy 176.53 97.79) (xy 176.53 99.06)
 		)
 		(stroke
 			(width 0)
@@ -5900,28 +5918,6 @@
 			)
 		)
 	)
-	(global_label "CT3"
-		(shape input)
-		(at 29.21 152.4 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0d4eecdd-1960-4dea-819c-69703e4ce661")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 22.7777 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "Aux"
 		(shape input)
 		(at 203.2 63.5 90)
@@ -5966,7 +5962,7 @@
 			)
 		)
 	)
-	(global_label "L"
+	(global_label "L1"
 		(shape input)
 		(at 30.48 21.59 180)
 		(fields_autoplaced yes)
@@ -5978,7 +5974,7 @@
 		)
 		(uuid "4510795b-cd82-4acf-8ef4-f9a59024fb52")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 26.4667 21.59 0)
+			(at 25.2572 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6230,7 +6226,7 @@
 			)
 		)
 	)
-	(global_label "CT1"
+	(global_label "CT2"
 		(shape input)
 		(at 29.21 97.79 180)
 		(fields_autoplaced yes)
@@ -6406,6 +6402,28 @@
 			)
 		)
 	)
+	(global_label "CT1"
+		(shape input)
+		(at 88.9 96.52 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c793cae2-efd0-478b-87b7-0ef2fe5f8532")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 82.4677 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Prim"
 		(shape input)
 		(at 166.37 78.74 180)
@@ -6428,7 +6446,7 @@
 			)
 		)
 	)
-	(global_label "CT4"
+	(global_label "CT3"
 		(shape input)
 		(at 85.09 152.4 180)
 		(fields_autoplaced yes)
@@ -6472,28 +6490,6 @@
 			)
 		)
 	)
-	(global_label "CT2"
-		(shape input)
-		(at 88.9 96.52 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "dbfecefa-d19a-46cf-817d-06785b3f3f00")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 82.4677 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "L"
 		(shape input)
 		(at 116.84 144.78 270)
@@ -6507,6 +6503,28 @@
 		(uuid "e182454c-a90b-49e7-bfcb-b5ada2c37007")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 116.84 148.7933 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CT4"
+		(shape input)
+		(at 29.21 152.4 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f5d0fc4b-3080-4879-ba25-9b3d4f3dee38")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 22.7777 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6864,7 +6882,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprint:PFR5101J400J11L4BULK"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm"
 			(at 84.7852 39.37 0)
 			(effects
 				(font
@@ -7331,90 +7349,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Library:S7133S")
-		(at 180.34 83.82 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "22d34a56-aa04-42fc-8977-116bc81b2125")
-		(property "Reference" "S7133S1"
-			(at 167.386 97.028 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 182.5341 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:SOP-8_3.9x4.9mm_P1.27mm"
-			(at 210.82 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 210.82 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 210.82 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "c3b136c4-d9b7-4c95-a99b-7323d92734f8")
-		)
-		(pin "7"
-			(uuid "58fabeb1-79d4-45c0-8c99-206fe5937f5e")
-		)
-		(pin "4"
-			(uuid "eadb5529-2dbb-4167-ab55-9161f9eddf9c")
-		)
-		(pin "5"
-			(uuid "4daca53a-c64b-4d66-8c7f-3ecde32ad3d1")
-		)
-		(pin "2"
-			(uuid "42a5a94e-7b34-40c7-b27c-1d0da479aabf")
-		)
-		(pin "1"
-			(uuid "aa813421-2204-4cf0-9eb8-f540ef2ac642")
-		)
-		(pin "3"
-			(uuid "be0aed4d-9fd2-438c-8c77-29ba8e751d68")
-		)
-		(instances
-			(project "Touch Switch"
-				(path "/32e3d4f4-0c9d-4cf7-a05b-4c70ee776977"
-					(reference "S7133S1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Relay:Relay_SPST-NO")
 		(at 55.88 134.62 0)
 		(unit 1)
@@ -7721,7 +7655,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprint:B32524R6225J000"
+		(property "Footprint" "footprint:PFR5101J400J11L4BULK"
 			(at 117.8052 31.75 0)
 			(effects
 				(font
@@ -8631,7 +8565,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 180.34 100.33 0)
+		(at 176.53 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8639,7 +8573,7 @@
 		(dnp no)
 		(uuid "733b624d-6358-4bc9-a740-93bcac6b4de1")
 		(property "Reference" "#PWR011"
-			(at 180.34 106.68 0)
+			(at 176.53 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8648,7 +8582,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 176.276 100.33 0)
+			(at 172.466 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8656,7 +8590,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 180.34 100.33 0)
+			(at 176.53 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8665,7 +8599,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 180.34 100.33 0)
+			(at 176.53 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8674,7 +8608,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 180.34 100.33 0)
+			(at 176.53 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8721,7 +8655,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 219.71 116.84 0)
 			(effects
 				(font
@@ -8852,7 +8786,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 19.05 30.48 0)
 			(effects
 				(font
@@ -9067,7 +9001,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 219.71 125.73 0)
 			(effects
 				(font
@@ -11484,7 +11418,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 240.03 116.84 0)
 			(effects
 				(font
@@ -11722,6 +11656,95 @@
 			(project "Touch Switch"
 				(path "/32e3d4f4-0c9d-4cf7-a05b-4c70ee776977"
 					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "S7133S_1")
+		(lib_id "Library:S7133S")
+		(at 180.34 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e9316448-8041-477a-9524-85900c9878f4")
+		(property "Reference" "S713XS1"
+			(at 182.5341 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 182.5341 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOP-8_3.9x4.9mm_P1.27mm"
+			(at 210.82 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 210.82 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "c8767116-3d7c-4067-9775-12ac1831659b")
+		)
+		(pin "8"
+			(uuid "7f12582b-cec3-488e-ba75-4b41a7beeb9c")
+		)
+		(pin "6"
+			(uuid "b5cf974a-e92a-470d-b327-9620cbfc7385")
+		)
+		(pin "5"
+			(uuid "f05c004e-12b2-4cb4-87c3-42e0f6a29748")
+		)
+		(pin "1"
+			(uuid "1780b432-ab50-45d0-a3fa-966c273b6282")
+		)
+		(pin "2"
+			(uuid "2886785f-9868-45da-a421-a12e6b26bb52")
+		)
+		(pin "7"
+			(uuid "0847ec4a-4fae-428d-97cb-985f52972ff4")
+		)
+		(pin "3"
+			(uuid "6ecdddb9-3e98-438e-b566-9b2ec7644faf")
+		)
+		(instances
+			(project "Touch Switch"
+				(path "/32e3d4f4-0c9d-4cf7-a05b-4c70ee776977"
+					(reference "S713XS1")
 					(unit 1)
 				)
 			)
@@ -12118,7 +12141,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 240.03 125.73 0)
 			(effects
 				(font
@@ -12182,7 +12205,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprint:transformer"
 			(at 157.48 35.56 0)
 			(effects
 				(font
