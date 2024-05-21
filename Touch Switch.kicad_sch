@@ -894,305 +894,6 @@
 				)
 			)
 		)
-		(symbol "Device:D_Bridge_+-AA"
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 2.54 6.985 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "D_Bridge_+-AA"
-				(at 2.54 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Diode bridge, +ve/-ve/AC/AC"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "rectifier ACDC"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "D*Bridge* D*Rectifier*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "D_Bridge_+-AA_0_1"
-				(circle
-					(center -5.08 0)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 0 -5.08)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 3.81) (xy -1.27 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -2.54) (xy -2.54 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -1.27) (xy 3.81 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.27) (xy 3.81 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 2.54) (xy -2.54 1.27) (xy -1.905 3.175) (xy -3.81 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -1.27) (xy -3.81 -2.54) (xy -1.905 -3.175) (xy -2.54 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.54) (xy 2.54 3.81) (xy 3.175 1.905) (xy 1.27 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.175 -1.905) (xy 1.27 -2.54) (xy 2.54 -3.81) (xy 3.175 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 0) (xy 0 -5.08) (xy 5.08 0) (xy 0 5.08) (xy -5.08 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 5.08)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 5.08 0)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "D_Bridge_+-AA_1_1"
-				(pin passive line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 7.62 270)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:Fuse"
 			(pin_numbers hide)
 			(pin_names
@@ -2183,30 +1884,42 @@
 				)
 			)
 		)
-		(symbol "Mechanical:MountingHole"
+		(symbol "Diode_Bridge:DF08M"
 			(pin_names
-				(offset 1.016)
+				(offset 0)
 			)
-			(exclude_from_sim yes)
-			(in_bom no)
+			(exclude_from_sim no)
+			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "H"
-				(at 0 5.08 0)
+			(property "Reference" "D"
+				(at 2.54 6.985 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" "MountingHole"
-				(at 0 3.175 0)
+			(property "Value" "DF08M"
+				(at 2.54 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Diode_THT:Diode_Bridge_DIP-4_W7.62mm_P5.08mm"
+				(at 3.81 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.vishay.com/docs/88571/dfm.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2215,7 +1928,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Description" "Miniature Glass Passivated Single-Phase Bridge Rectifiers, 560V Vrms, 1.0A If, DIP-4"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2224,7 +1937,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Mounting Hole without connection"
+			(property "ki_keywords" "rectifier acdc"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2233,7 +1946,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "mounting hole"
+			(property "ki_fp_filters" "Diode*Bridge*DIP*W7.62mm*P5.08mm*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2242,25 +1955,187 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "MountingHole*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
+			(symbol "DF08M_0_1"
+				(polyline
+					(pts
+						(xy -2.54 3.81) (xy -1.27 2.54)
 					)
-					(hide yes)
-				)
-			)
-			(symbol "MountingHole_0_1"
-				(circle
-					(center 0 0)
-					(radius 1.27)
 					(stroke
-						(width 1.27)
+						(width 0)
 						(type default)
 					)
 					(fill
 						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy -2.54 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -1.27) (xy 3.81 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy 3.81 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 2.54) (xy -2.54 1.27) (xy -1.905 3.175) (xy -3.81 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy -3.81 -2.54) (xy -1.905 -3.175) (xy -2.54 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 2.54 3.81) (xy 3.175 1.905) (xy 1.27 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 -1.905) (xy 1.27 -2.54) (xy 2.54 -3.81) (xy 3.175 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 0) (xy 0 -5.08) (xy 5.08 0) (xy 0 5.08) (xy -5.08 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "DF08M_1_1"
+				(pin passive line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
 			)
@@ -5758,25 +5633,6 @@
 		)
 		(uuid "7ae31f4d-f5b0-44ed-bc01-336c8158cbff")
 	)
-	(text_box "Mounting Holes\n"
-		(exclude_from_sim no)
-		(at 156.21 134.62 0)
-		(size 34.29 29.21)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "c7805f2b-8ea8-47b5-9894-39a0f13e88b1")
-	)
 	(text_box "Flyback Driver\n"
 		(exclude_from_sim no)
 		(at 156.21 54.61 0)
@@ -6302,7 +6158,7 @@
 			)
 		)
 	)
-	(global_label "CT1"
+	(global_label "CT4"
 		(shape input)
 		(at 88.9 96.52 180)
 		(fields_autoplaced yes)
@@ -6346,7 +6202,7 @@
 			)
 		)
 	)
-	(global_label "CT3"
+	(global_label "CT1"
 		(shape input)
 		(at 85.09 152.4 180)
 		(fields_autoplaced yes)
@@ -6412,7 +6268,7 @@
 			)
 		)
 	)
-	(global_label "CT4"
+	(global_label "CT3"
 		(shape input)
 		(at 29.21 152.4 180)
 		(fields_autoplaced yes)
@@ -7620,7 +7476,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprint:PFR5101J400J11L4BULK"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 117.8052 31.75 0)
 			(effects
 				(font
@@ -9934,70 +9790,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 167.64 158.75 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a8a6e607-5969-493d-88b3-e4fad23051e8")
-		(property "Reference" "H4"
-			(at 170.18 157.4799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 170.18 160.0199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad_Via"
-			(at 167.64 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 167.64 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 167.64 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "Touch Switch"
-				(path "/32e3d4f4-0c9d-4cf7-a05b-4c70ee776977"
-					(reference "H4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Polarized")
 		(at 232.41 78.74 0)
 		(unit 1)
@@ -11219,70 +11011,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 167.64 146.05 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d8dcc159-30bd-460e-8460-c6746474f47e")
-		(property "Reference" "H2"
-			(at 170.18 144.7799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 170.18 147.3199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad_Via"
-			(at 167.64 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 167.64 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 167.64 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "Touch Switch"
-				(path "/32e3d4f4-0c9d-4cf7-a05b-4c70ee776977"
-					(reference "H2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 203.2 100.33 0)
 		(unit 1)
@@ -11749,35 +11477,43 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 167.64 152.4 0)
+		(lib_id "Diode_Bridge:DF08M")
+		(at 55.88 30.48 0)
 		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
+		(exclude_from_sim no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e88099d5-5d35-43c0-8ad5-bbc4847b3df9")
-		(property "Reference" "H3"
-			(at 170.18 151.1299 0)
+		(uuid "e54717ed-01e6-4e54-b5c4-8fd124f88a5c")
+		(property "Reference" "D9"
+			(at 66.04 24.0598 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DF08M"
+			(at 66.04 26.5998 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:Diode_Bridge_Diotec_ABS"
+			(at 59.69 27.305 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Value" "MountingHole"
-			(at 170.18 153.6699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad_Via"
-			(at 167.64 152.4 0)
+		(property "Datasheet" "http://www.vishay.com/docs/88571/dfm.pdf"
+			(at 55.88 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11785,8 +11521,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 167.64 152.4 0)
+		(property "Description" "Miniature Glass Passivated Single-Phase Bridge Rectifiers, 560V Vrms, 1.0A If, DIP-4"
+			(at 55.88 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11794,19 +11530,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
-			(at 167.64 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+		(pin "3"
+			(uuid "e3c8a359-f879-40a1-9acc-6e1996e8afb2")
+		)
+		(pin "1"
+			(uuid "3a7d0051-73fd-49c7-80ec-df7600885e67")
+		)
+		(pin "2"
+			(uuid "2a7ab1fd-9e8e-4c86-86cf-f29c10fd9a3d")
+		)
+		(pin "4"
+			(uuid "e0bc40a8-de6c-418d-8edb-ab3818ec2b51")
 		)
 		(instances
 			(project "Touch Switch"
 				(path "/32e3d4f4-0c9d-4cf7-a05b-4c70ee776977"
-					(reference "H3")
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -12252,143 +11991,6 @@
 			(project "Touch Switch"
 				(path "/32e3d4f4-0c9d-4cf7-a05b-4c70ee776977"
 					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Bridge_+-AA")
-		(at 55.88 30.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f58d4abd-7420-41fb-bbc2-b50610424b80")
-		(property "Reference" "D1"
-			(at 69.85 24.0598 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D_Bridge_+-AA"
-			(at 55.88 18.542 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:Diode_Bridge_Diotec_ABS"
-			(at 55.88 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 55.88 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode bridge, +ve/-ve/AC/AC"
-			(at 55.88 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "8766d68b-dfee-46d0-b820-0772f7229411")
-		)
-		(pin "1"
-			(uuid "90387d4e-2e2e-4885-94e1-0861ce5bbd51")
-		)
-		(pin "2"
-			(uuid "a5a7515c-46b5-4048-b755-fbb5a6c1d025")
-		)
-		(pin "3"
-			(uuid "5418ad92-9aff-4a64-8388-a352b510eefc")
-		)
-		(instances
-			(project "Touch Switch"
-				(path "/32e3d4f4-0c9d-4cf7-a05b-4c70ee776977"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 167.64 139.7 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f76ef935-def6-46d2-a266-981e93244b8c")
-		(property "Reference" "H1"
-			(at 170.18 138.4299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 170.18 140.9699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad_Via"
-			(at 167.64 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 167.64 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 167.64 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "Touch Switch"
-				(path "/32e3d4f4-0c9d-4cf7-a05b-4c70ee776977"
-					(reference "H1")
 					(unit 1)
 				)
 			)

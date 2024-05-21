@@ -4,7 +4,7 @@
 	(generator_version "8.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 17.75 -16.75 0)
+		(at 0 -7 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "67888759-9a65-4f21-b319-5c67831b4906")
@@ -16,7 +16,7 @@
 		)
 	)
 	(property "Value" "power_connector"
-		(at 17.75 -15.25 0)
+		(at 0 -5.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "5cf14b0c-c638-49cb-ab86-04bf4f31ded3")
@@ -28,7 +28,7 @@
 		)
 	)
 	(property "Footprint" "power_connector"
-		(at 17.75 -16.25 0)
+		(at 0 -6.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -41,7 +41,7 @@
 		)
 	)
 	(property "Datasheet" ""
-		(at 17.75 -16.25 0)
+		(at 0 -6.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -54,7 +54,7 @@
 		)
 	)
 	(property "Description" ""
-		(at 17.75 -16.25 0)
+		(at 0 -6.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -68,7 +68,7 @@
 	)
 	(attr through_hole)
 	(fp_text user "${REFERENCE}"
-		(at 17.75 -13.75 0)
+		(at 0 -4 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "ee6438a0-d9f4-4cc2-adc8-b8e32b2d2f86")
@@ -81,9 +81,9 @@
 	)
 	(pad "1" thru_hole circle
 		(at -1.5 3.25)
-		(size 0.3 0.3)
+		(size 0.7 0.7)
 		(drill 0.5)
-		(layers "*.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask" "Dwgs.User")
 		(remove_unused_layers no)
 		(uuid "7e24be63-2fec-4dd0-ad7d-25c95ca7eff0")
 	)
@@ -100,7 +100,7 @@
 	)
 	(pad "1" thru_hole circle
 		(at 0 3.25)
-		(size 0.3 0.3)
+		(size 0.7 0.7)
 		(drill 0.5)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -108,7 +108,7 @@
 	)
 	(pad "1" thru_hole circle
 		(at 1.5 3.25)
-		(size 0.3 0.3)
+		(size 0.7 0.7)
 		(drill 0.5)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
