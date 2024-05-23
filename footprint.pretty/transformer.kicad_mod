@@ -327,7 +327,7 @@
 		)
 	)
 	(fp_text user "S"
-		(at 0.25 0.75 90)
+		(at 0.5 3.75 90)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "86fdbc4f-f4d1-4f89-aa59-5da8080dda8d")
@@ -369,20 +369,20 @@
 		(uuid "ee1e97f9-75d7-4392-bc2b-3da3e355abca")
 	)
 	(pad "3" thru_hole circle
-		(at -5 4.25)
-		(size 2 2)
-		(drill 1.2)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "98b93cae-ea11-4072-8835-fa59fd63322e")
-	)
-	(pad "4" thru_hole circle
 		(at 5 4.25)
 		(size 2 2)
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "79d4714d-7d9b-4ab6-9658-6c5799889ecc")
+	)
+	(pad "4" thru_hole circle
+		(at -5 4.25)
+		(size 2 2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "98b93cae-ea11-4072-8835-fa59fd63322e")
 	)
 	(pad "5" thru_hole circle
 		(at 2.5 -4.25)
